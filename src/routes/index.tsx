@@ -91,8 +91,8 @@ function HomePage() {
             </p>
             <div className="mt-8 grid grid-cols-3 gap-6">
               {[
-                { n: "+5", l: "Años de experiencia" },
-                { n: "500+", l: "Clientes activos" },
+                { n: "+3", l: "Años de experiencia" },
+                { n: "100+", l: "Clientes activos" },
                 { n: "24/7", l: "Atención" },
               ].map((s) => (
                 <div key={s.l} className="border-l-4 border-orange-accent pl-3">
